@@ -3,7 +3,7 @@
 ## Steps to use the directive
 1. Include this file in your application.
 2. Add the dependency ***speech-recognition*** into the application.
-3. Use the element <speech-listener></speech-listener> for using the web speech directive.
+3. Use the element ***<speech-listener></speech-listener>*** for using the web speech directive.
 
 ## How to use ?
 1. To start listening, emit the **startListening** event.
@@ -25,10 +25,10 @@ After emitting the stopListening event, if the speech recognition has successful
 
 ##Example code
 1. To *start listening*
-    $scope.$emit('startListening');
+    **$scope.$emit('startListening');**
 
 2. To *stop listening*
-    $scope.$emit('stopListening);
+    **$scope.$emit('stopListening);**
 
 3. Reading the *final result*
 

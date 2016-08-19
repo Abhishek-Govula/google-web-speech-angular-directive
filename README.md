@@ -25,12 +25,10 @@ After emitting the stopListening event, if the speech recognition has successful
 
 ##Example code
 1. To *start listening*
-
-$scope.$emit('startListening');
+    $scope.$emit('startListening');
 
 2. To *stop listening*
-
-$scope.$emit('stopListening);
+    $scope.$emit('stopListening);
 
 3. Reading the *final result*
 
@@ -61,5 +59,5 @@ $scope.$emit('stopListening);
     $scope.$on('stoppedListening', function (event, data) {
         
         //Change the mic image to plain mic icon
-        
+
     });

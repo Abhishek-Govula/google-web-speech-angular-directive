@@ -25,27 +25,41 @@ After emitting the stopListening event, if the speech recognition has successful
 
 ##Example code
 1. To *start listening*
+
 $scope.$emit('startListening');
 
 2. To *stop listening*
+
 $scope.$emit('stopListening);
 
 3. Reading the *final result*
 
     $scope.$on('finalResults', function (event, data) {
+
         //Results will the available in the data
+
     });
 
 4. Reading the *interim results*
 
     $scope.$on('interimResults', function(event, data) {
+
         //Results will the available in the data
+    
     });
 
 5. Listening to the *startedListening* event
+    
     $scope.$on('startedListening', function (event, data) {
+        
         //Change the mic image to a recording mic icon
+
     });
+
+6. Listening to the *stoppedListening* event
+
     $scope.$on('stoppedListening', function (event, data) {
+        
         //Change the mic image to plain mic icon
+        
     });

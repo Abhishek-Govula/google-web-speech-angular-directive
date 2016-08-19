@@ -3,7 +3,7 @@
 ## Steps to use the directive
 1. Include this file in your application.
 2. Add the dependency ***speech-recognition*** into the application.
-3. Use the element ***<speech-listener></speech-listener>*** for using the web speech directive.
+3. Use the element ***&lt;speech-listener&gt;&lt;/speech-listener&gt;*** for using the web speech directive.
 
 ## How to use ?
 1. To start listening, emit the **startListening** event.

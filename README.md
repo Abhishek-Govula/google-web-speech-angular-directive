@@ -7,9 +7,9 @@
 
 ## How to use ?
 1. To start listening, emit the **startListening** event.
-    Example: $scope.$emit("startListening")
-2. To stop listening, emit the "stopListening" event.
-    Example: $scope.$emit("stopListening")
+Example: $scope.$emit("startListening")
+2. To stop listening, emit the **stopListening** event.
+Example: $scope.$emit("stopListening")
 
 After emitting the startListening event, if the speech recognition has successfully started, the **startedListening** event is emitted from the directive
 After emitting the stopListening event, if the speech recognition has successfully stopped, the **stoppedListening** event is emitted from the directive
